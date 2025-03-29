@@ -127,11 +127,11 @@ def get_user_prompt(user_id):
     with open(prompt_path, 'r', encoding='utf-8') as file:
         return file.read()
 
-COZE_TOKEN = "pat_UjyDaQC4hCmlpshXKuKhiWkfNAxPHyRGGtB9mQkcXt4SPDM7iSUCO5CKS0dE6Lzx"
-COZE_BOT_ID = "7484086725997445120"
+COZE_TOKEN = ""
+COZE_BOT_ID = ""
 COZE_API_URL = "https://api.coze.cn/v3/chat"
 COZE_LIST_MESSAGES_URL = "https://api.coze.cn/v3/chat/message/list"  # 修正后的端点
-user_id_coze = "7483507952721559590"
+user_id_coze = ""
 
 def coze_chat_integrated(user_id, question):
     # 扣子配置
